@@ -1,0 +1,46 @@
+.TodoItem {
+    border: 1px solid #e1e1e1;
+    color: #000;
+    background-color: #fff;
+    padding: 16px 24px;
+    margin: 12px 0px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.TodoItem-check {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid #a3a1b8;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TodoItem-check--active {
+    background-color: #41dd4e;
+    border-color: #41dd4e;
+}
+
+.TodoItem-check--active .icono-check {
+    color: #fff;
+}
+
+.icono-check {
+    font-size: 16px;
+}
+
+.icono-borrar {
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: auto;
+}
+
+.icono-borrar:hover {
+    color: red;
+}
+

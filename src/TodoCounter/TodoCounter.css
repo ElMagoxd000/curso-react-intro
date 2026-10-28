@@ -1,6 +1,19 @@
+
+.TodoCounter-span {
+    color: #7047eb;
+    font-size: 42px;
+    margin: 8px;
+}
+.TodoCounter-container {
+    
+}
 h1 {
     font-size: 24px;
     text-align: center;
     margin: 0;
-    padding: 48px;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }

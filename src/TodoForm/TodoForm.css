@@ -8,15 +8,16 @@ form {
 form label {
 	font-size: 22px;
 	font-weight: bold;
+	text-align: center;
 }
 textarea {
 	width: 100%;
-	border-radius: 24px;
-	padding: 24px;
-	border: 1px solid #4614a4;
+	border-radius: 12px;
+	padding: 14px 24px;
+	border: 1px solid #c5c3c3;
 	outline: none;
 	resize: none;
-	height: 150px;
+	height: 90px;
 }
 
 .TodoForm-buttonContainer {
@@ -26,17 +27,21 @@ textarea {
 }
 
 .TodoForm-button {
-	padding: 22px 28px;
+	padding: 16px 28px;
 	border-radius: 12px;
-	background-color: #4614a4;
+	cursor: pointer;
+	background-color: #7047eb;
 	color: #fff;
 	outline: none;
 	border: none;
+	font-family: 'Inter', Arial, sans-serif;
+	width: 100%;
 }
 .TodoForm-button--cancel {
-	background-color: #a72222;
+	background-color: #e8e8e8;
+	color: #000;
 }
 
 .TodoForm-button--add {
-	background-color: #46b4c5;
+	background-color: #7047eb;
 }

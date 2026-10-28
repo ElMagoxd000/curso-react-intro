@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: #F7F6FC;
+}
 .todoApp {
     display: flex;
 }
@@ -55,36 +59,10 @@
     padding: 48px;
 }
 
-.contenedor-todos input {
-    width: 100%;
-    padding: 22px;
-    border: 1px solid #000;
-    border-radius: 12px;
-    outline: none;
-}
-
 .todos {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-.todos li {
-    background-color: #4614a4;
-    color: #fff;
-    padding: 24px;
-    margin: 12px 0px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-.icono-check {
-    font-size: 24px;
-    margin-right: 24px;
-    cursor: pointer;
-}
-.icono-check-active {
-    color: #41dd4e;
 }
 
 .todoItem-p {
@@ -92,13 +70,4 @@
 }
 .todoItem-p-active {
     text-decoration: line-through;
-}
-.icono-borrar {
-    cursor: pointer;
-    font-size: 24px;
-    margin-left: auto;
-}
-
-.icono-borrar:hover {
-    color: red;
 }
