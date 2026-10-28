@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+.todoApp {
+    display: flex;
+}
+
+.formulario {
+    padding: 48px;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 30%;
+}
+
+.formulario h2 {
+    font-size: 24px;
+}
+
+.formulario textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #000;
+    min-height: 150px;
+    padding: 12px;
+}
+
+.formulario textarea:focus {
+    outline: none;
+}
+.createTodoButton {
+    background-color: #41dd4e;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    margin-top: 12px;
+    margin: 24px;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 1); */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor-todos {
+    width: 100%;
+    padding: 48px;
+}
+
+.contenedor-todos input {
+    width: 100%;
+    padding: 22px;
+    border: 1px solid #000;
+    border-radius: 12px;
+    outline: none;
+}
+
+.todos {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.todos li {
+    background-color: #4614a4;
+    color: #fff;
+    padding: 24px;
+    margin: 12px 0px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.icono-check {
+    font-size: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.icono-check-active {
+    color: #41dd4e;
+}
+
+.todoItem-p {
+    font-size: 16px;
+}
+.todoItem-p-active {
+    text-decoration: line-through;
+}
+.icono-borrar {
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: auto;
+}
+
+.icono-borrar:hover {
+    color: red;
+}

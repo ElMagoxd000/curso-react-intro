@@ -1,0 +1,46 @@
+.todos .todo-skeleton {
+    background: #e5e5e5;
+    color: transparent;
+    gap: 24px;
+}
+
+.todo-skeleton-check,
+.todo-skeleton-text,
+.todo-skeleton-delete {
+    display: block;
+    background: linear-gradient(90deg, #d6d6d6 25%, #f1f1f1 50%, #d6d6d6 75%);
+    background-size: 200% 100%;
+    animation: todo-skeleton-shimmer 1.4s ease-in-out infinite;
+}
+
+.todo-skeleton-check,
+.todo-skeleton-delete {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+}
+
+.todo-skeleton-text {
+    width: 65%;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.todo-skeleton-delete {
+    margin-left: auto;
+}
+
+@keyframes todo-skeleton-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .todo-skeleton-check,
+    .todo-skeleton-text,
+    .todo-skeleton-delete {
+        animation: none;
+    }
+}
